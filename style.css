@@ -1,0 +1,208 @@
+/*imported some custom fonts to use*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* CSS style to design the front end of the portfolio*/
+body {
+    overflow-x: hidden;
+}
+.header {
+    background-color: #2b262f;
+}
+
+.navbar {
+    background-color: #4F4557;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.info {
+    
+    text-align: start;
+    margin-left: 60px;
+    margin-top: 300px;
+    color: aliceblue;
+    font-family: 'Pixelify Sans', sans-serif;
+    transition: .5s;
+    opacity: 0;
+    font-size: 50px;
+    padding: 10px;
+    overflow-y: hidden;
+    position: relative;
+}
+.navbar-brand {
+    transition: .5s;
+}
+.navbar-brand:hover {
+    color: aliceblue;
+}
+.info:hover {
+    color: bisque;
+}
+.nav-link {
+    color: white!important;
+}
+.nav-link:hover {
+    color: antiquewhite!important;
+}
+.aboutme {
+    height: 100vh;
+}
+.image-logo {
+    margin-top: 200px;
+    height: 400px;
+    margin-left: 130px;
+    transition: .5s;
+    border-radius: 100px;
+    box-shadow: 26px 15px 66px -20px rgba(0,0,0,0.69);
+    -webkit-box-shadow: 26px 15px 66px -20px rgba(0,0,0,0.69);
+    -moz-box-shadow: 26px 15px 66px -20px rgba(0,0,0,0.69);
+}
+.image-logo:hover {
+    box-shadow: 26px 15px 66px -20px rgb(255, 255, 255);
+    margin-left: 110px;
+}
+
+
+.bio {
+    margin-top: 300px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.imgs {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.imgs img {
+    width: 40px;
+    margin: 20px;
+}
+.imgs img:hover {
+    transform: rotate(5deg);
+}
+h1 {
+    margin-top: 250px;
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;    
+}
+.expertise {
+    font-family: 'Roboto Condensed', sans-serif;    
+    margin-top: 60px;
+    margin-left: 300px;
+}
+.progress {
+    width: 600px;
+}
+.offcanvas-body {
+    background-color: #4F4557;
+}
+
+.offcanvas-header {
+    color: white!important;
+    background-color: #4F4557;
+}
+
+.projects {
+    height: 100vh;
+    background-color: #2b262f;
+}
+
+.card {
+    width: 320px;
+    padding: 10px;
+    margin-top: 130px;
+}
+.card .card-title {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.card .card-text {
+    font-family: 'Signika Negative', sans-serif;
+}
+.text {
+    color: white;
+    margin-top: 80px;
+}
+.title {
+    margin-top: 50px;
+    color: white;
+    margin-left: 590px;
+    text-transform: uppercase;
+}
+.aboutme {
+    background-color: aliceblue;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+
+    .footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+.dev-pic {
+    width: 200px;
+}
+#qoute {
+    color: white;
+    margin-top: 40px;
+    margin-left: 130px;
+    font-family: 'Dancing Script', cursive;
+}
+/* used media query for the responsiveness of the website from various screen sizes */
+@media (max-width: 575.98px) {
+    .info {
+        margin-left: 30px;
+        font-size: 30px;
+        margin-top: 250px;
+    }
+    .image-logo {
+        margin-top: 20px;
+        height: 150px;
+        margin-left: 30px;
+    }
+    .bio {
+        margin-top: 60px;
+        margin-left: 20px;
+        width: 300px;
+        font-size: 12px;
+    }
+    h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 19px;
+    }
+    .expertise {
+        margin-left: 125px;
+        margin-top: -4px;
+    }
+    .progress {
+        width: 300px;
+        margin-left: 10px;
+        height: 10px;
+    }
+    .imgs img {
+        margin-left: 10px;
+        width: 20px;
+    }
+    .imgs {
+        margin: 5px;
+    }
+    .projects {
+        height: auto;
+    }
+    .title {
+        margin-left: 100px;
+    }
+    .projects .container {
+        margin-left: 10px;
+    }
+    #qoute {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+}
